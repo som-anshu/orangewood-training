@@ -1,0 +1,8 @@
+# 1. Source the core ROS 2 Jazzy installation
+source /opt/ros/jazzy/setup.bash
+
+# 2. Source your specific local workspace installation script using its absolute path
+source /home/koko/Projects/orangewood-training/amr/install/setup.bash
+
+# 3. Launch your simulation package layout using absolute file locations
+ros2 launch /home/koko/Projects/orangewood-training/amr/src/room_simulator/launch/simulation.launch.py

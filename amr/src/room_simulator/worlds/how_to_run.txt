@@ -1,0 +1,1 @@
+gz sim ~/Projects/orangewood-training/amr/src/room_simulator/worlds/room_world.sdf
